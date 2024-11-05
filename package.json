@@ -1,0 +1,32 @@
+{
+  "name": "pairing-schedule-generator",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "Jared Pinfold",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": [
+      "@devacademy"
+    ]
+  },
+  "devDependencies": {
+    "@devacademy/eslint-config": "^1.8.0",
+    "eslint": "^8.10.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "prettier": "2.6.1",
+    "vitest": "^0.34.6"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
